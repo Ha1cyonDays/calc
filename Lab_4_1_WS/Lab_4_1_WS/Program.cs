@@ -32,6 +32,9 @@ namespace Lab_4_1_WS
                 case "s":
                     Console.WriteLine($"Your result: {num1} - {num2} = " + (num1 - num2));
                     break;
+                case "m":
+                    Console.WriteLine($"Your result: {num1} * {num2} = " + (num1 * num2));
+                    break;
             }
         }
     }
