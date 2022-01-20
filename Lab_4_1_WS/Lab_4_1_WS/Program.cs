@@ -22,7 +22,14 @@ namespace Lab_4_1_WS
             Console.WriteLine("\ts - Subtract");
             Console.WriteLine("\tm - Multiply");
             Console.WriteLine("\td - Divide");
-            Console.Write("Your option? ");
+            Console.Write("Your option? "); 
+
+            switch (Console.ReadLine())
+            {
+                case "a":
+                    Console.WriteLine($"Your result: {num1} + {num2} = " + (num1 + num2));
+                    break;
+            }
         }
     }
 }
