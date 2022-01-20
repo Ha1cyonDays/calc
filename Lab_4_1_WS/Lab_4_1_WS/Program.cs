@@ -16,6 +16,13 @@ namespace Lab_4_1_WS
             // Ask the user to type the second number.
             Console.WriteLine("Type another number, and then press Enter");
             num2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Choose an option from the following list:");
+            Console.WriteLine("\ta - Add");
+            Console.WriteLine("\ts - Subtract");
+            Console.WriteLine("\tm - Multiply");
+            Console.WriteLine("\td - Divide");
+            Console.Write("Your option? ");
         }
     }
 }
