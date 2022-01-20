@@ -12,6 +12,10 @@ namespace Lab_4_1_WS
             Console.WriteLine("Type a number, and then press Enter");
             num1 = Convert.ToInt32(Console.ReadLine());
 
+            int num2 = 0;
+            // Ask the user to type the second number.
+            Console.WriteLine("Type another number, and then press Enter");
+            num2 = Convert.ToInt32(Console.ReadLine());
         }
     }
 }
