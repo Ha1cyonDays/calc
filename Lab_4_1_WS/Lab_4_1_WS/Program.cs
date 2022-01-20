@@ -6,8 +6,12 @@ namespace Lab_4_1_WS
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            int num1 = 0;
+
+            // Ask the user to type the first number.
+            Console.WriteLine("Type a number, and then press Enter");
+            num1 = Convert.ToInt32(Console.ReadLine());
+
         }
     }
 }
