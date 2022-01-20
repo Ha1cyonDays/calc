@@ -6,8 +6,12 @@ namespace Lab_4_1_WS
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            switch (Console.ReadLine())
+            {
+                case "a":
+                    Console.WriteLine($"Your result: {num1} + {num2} = " + (num1 + num2));
+                    break;
+            }
         }
     }
 }
